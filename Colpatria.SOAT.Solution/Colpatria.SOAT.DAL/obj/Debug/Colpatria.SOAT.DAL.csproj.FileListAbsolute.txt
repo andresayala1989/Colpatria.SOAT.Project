@@ -1,0 +1,6 @@
+C:\Users\Andres\source\repos\Colpatria.SOAT.Solution\Colpatria.SOAT.DAL\bin\Debug\Colpatria.SOAT.DAL.dll
+C:\Users\Andres\source\repos\Colpatria.SOAT.Solution\Colpatria.SOAT.DAL\bin\Debug\Colpatria.SOAT.DAL.pdb
+C:\Users\Andres\source\repos\Colpatria.SOAT.Solution\Colpatria.SOAT.DAL\obj\Debug\Colpatria.SOAT.DAL.csproj.AssemblyReference.cache
+C:\Users\Andres\source\repos\Colpatria.SOAT.Solution\Colpatria.SOAT.DAL\obj\Debug\Colpatria.SOAT.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Andres\source\repos\Colpatria.SOAT.Solution\Colpatria.SOAT.DAL\obj\Debug\Colpatria.SOAT.DAL.dll
+C:\Users\Andres\source\repos\Colpatria.SOAT.Solution\Colpatria.SOAT.DAL\obj\Debug\Colpatria.SOAT.DAL.pdb

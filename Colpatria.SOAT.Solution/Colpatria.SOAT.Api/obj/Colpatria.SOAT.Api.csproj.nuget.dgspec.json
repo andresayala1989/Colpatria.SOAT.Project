@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.Api\\Colpatria.SOAT.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.Api\\Colpatria.SOAT.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.Api\\Colpatria.SOAT.Api.csproj",
+        "projectName": "Colpatria.SOAT.Api",
+        "projectPath": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.Api\\Colpatria.SOAT.Api.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.BLL\\Colpatria.SOAT.BLL.csproj": {
+                "projectPath": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.BLL\\Colpatria.SOAT.BLL.csproj"
+              },
+              "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.DAL\\Colpatria.SOAT.DAL.csproj": {
+                "projectPath": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.DAL\\Colpatria.SOAT.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.BLL\\Colpatria.SOAT.BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.BLL\\Colpatria.SOAT.BLL.csproj",
+        "projectName": "Colpatria.SOAT.BLL",
+        "projectPath": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.BLL\\Colpatria.SOAT.BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.DAL\\Colpatria.SOAT.DAL.csproj": {
+                "projectPath": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.DAL\\Colpatria.SOAT.DAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.DAL\\Colpatria.SOAT.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.DAL\\Colpatria.SOAT.DAL.csproj",
+        "projectName": "Colpatria.SOAT.DAL",
+        "projectPath": "C:\\Users\\Andres\\source\\repos\\Colpatria.SOAT.Solution\\Colpatria.SOAT.DAL\\Colpatria.SOAT.DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

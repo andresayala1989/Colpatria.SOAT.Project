@@ -1,0 +1,4 @@
+
+Base de datos SOAT
+User: userColpatria
+Password: User123.

@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "ad67793b-5461-4818-8e4f-b6a38e8555cc",
+		"name": "Colpatria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44300/Poliza/Get",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {},
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzb21lX2lkIiwiZ3Jhbm55IjoiY29va2llIiwibmJmIjoxNjcxODE2NDczLCJleHAiOjE2NzE4MjAwNzMsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAwLyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAwLyJ9.6wnjoTCuqZq7VpF-_imWV0rnjQBvSC6ged1QNQq0EiQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "HZQ127",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44300/Poliza/Get",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"Poliza",
+						"Get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44300/Home/Authenticate",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzb21lX2lkIiwiZ3Jhbm55IjoiY29va2llIiwibmJmIjoxNjcxNzI4NTY1LCJleHAiOjE2NzE3MzIxNjUsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAwLyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAwLyJ9.7aXKsbDDcXinUomvMJIBjonZfnGGOAqfUn1JOd9iDUg",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44300/Home/Authenticate",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"Home",
+						"Authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44300/Poliza/Post",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzb21lX2lkIiwiZ3Jhbm55IjoiY29va2llIiwibmJmIjoxNjcxODE0OTM3LCJleHAiOjE2NzE4MTg1MzcsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAwLyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAwLyJ9.sfbHMjUelZqeyhJLpP_1IGGSb4zq1Xmgfl1JchSgbsI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Nombre",
+							"value": "Camilo",
+							"type": "text"
+						},
+						{
+							"key": "Apellido",
+							"value": "Gomez",
+							"type": "text"
+						},
+						{
+							"key": "Documento",
+							"value": "1070008888",
+							"type": "text"
+						},
+						{
+							"key": "Tipo",
+							"value": "CC",
+							"type": "text"
+						},
+						{
+							"key": "Direccion",
+							"value": "Calle Falsa 123",
+							"type": "text"
+						},
+						{
+							"key": "Telefono",
+							"value": "304858587",
+							"type": "text"
+						},
+						{
+							"key": "PlacaAutomotor",
+							"value": "HZQ127",
+							"type": "text"
+						},
+						{
+							"key": "IdCiudad",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "FechaInicio",
+							"value": "2023/01/01",
+							"type": "text"
+						},
+						{
+							"key": "FechaFin",
+							"value": "2023/12/31",
+							"type": "text"
+						},
+						{
+							"key": "FechaVencimiento",
+							"value": "2022/12/31",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44300/Poliza/Post",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"Poliza",
+						"Post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
